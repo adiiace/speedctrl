@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Privacy Policy — SpeedCtrl</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            *,
+            *::before,
+            *::after {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            :root {
+                --accent: #60a5fa;
+                --bg: #080a12;
+                --sur: #10121c;
+                --border: #1e2132;
+                --text: #e8ecff;
+                --muted: #525870;
+                --radius: 10px;
+            }
+
+            html {
+                scroll-behavior: smooth;
+            }
+
+            body {
+                background: var(--bg);
+                color: var(--text);
+                font-family: "DM Sans", sans-serif;
+                font-size: 16px;
+                line-height: 1.7;
+                -webkit-font-smoothing: antialiased;
+            }
+
+            a {
+                color: var(--accent);
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+
+            nav {
+                position: sticky;
+                top: 0;
+                z-index: 100;
+                background: rgba(8, 10, 18, 0.85);
+                backdrop-filter: blur(12px);
+                border-bottom: 1px solid var(--border);
+                padding: 0 40px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 56px;
+            }
+            .nav-brand {
+                display: flex;
+                align-items: center;
+                gap: 9px;
+                font-weight: 600;
+                font-size: 15px;
+                color: var(--text);
+                text-decoration: none;
+            }
+            .nav-logo {
+                width: 26px;
+                height: 26px;
+                background: var(--accent);
+                border-radius: 6px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 13px;
+            }
+
+            .page {
+                max-width: 640px;
+                margin: 0 auto;
+                padding: 64px 24px 100px;
+            }
+
+            .eyebrow {
+                font-size: 11px;
+                font-weight: 600;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                color: var(--accent);
+                margin-bottom: 12px;
+            }
+
+            h1 {
+                font-size: 36px;
+                font-weight: 600;
+                letter-spacing: -0.02em;
+                color: var(--text);
+                margin-bottom: 8px;
+                line-height: 1.15;
+            }
+
+            .updated {
+                font-size: 13px;
+                color: var(--muted);
+                margin-bottom: 48px;
+                font-family: "DM Mono", monospace;
+            }
+
+            .summary-card {
+                background: var(--sur);
+                border: 1px solid rgba(96, 165, 250, 0.2);
+                border-radius: var(--radius);
+                padding: 20px 24px;
+                margin-bottom: 48px;
+                display: flex;
+                gap: 14px;
+                align-items: flex-start;
+            }
+            .summary-icon {
+                font-size: 20px;
+                flex-shrink: 0;
+                margin-top: 2px;
+            }
+            .summary-card p {
+                font-size: 15px;
+                color: var(--text);
+                line-height: 1.6;
+            }
+            .summary-card strong {
+                color: var(--accent);
+                font-weight: 600;
+            }
+
+            h2 {
+                font-size: 18px;
+                font-weight: 600;
+                color: var(--text);
+                margin-bottom: 10px;
+                margin-top: 40px;
+                letter-spacing: -0.01em;
+            }
+
+            p {
+                font-size: 15px;
+                color: var(--muted);
+                margin-bottom: 16px;
+                line-height: 1.75;
+            }
+
+            ul {
+                list-style: none;
+                margin-bottom: 16px;
+            }
+            ul li {
+                font-size: 15px;
+                color: var(--muted);
+                line-height: 1.75;
+                padding-left: 18px;
+                position: relative;
+                margin-bottom: 6px;
+            }
+            ul li::before {
+                content: "—";
+                position: absolute;
+                left: 0;
+                color: var(--border);
+            }
+
+            code {
+                font-family: "DM Mono", monospace;
+                font-size: 13px;
+                background: var(--sur);
+                border: 1px solid var(--border);
+                border-radius: 4px;
+                padding: 1px 6px;
+                color: var(--accent);
+            }
+
+            .divider {
+                height: 1px;
+                background: var(--border);
+                margin: 40px 0;
+            }
+
+            footer {
+                border-top: 1px solid var(--border);
+                padding: 28px 40px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 12px;
+            }
+            footer p {
+                font-size: 13px;
+                color: var(--muted);
+            }
+            .footer-links {
+                display: flex;
+                gap: 20px;
+            }
+            .footer-links a {
+                font-size: 13px;
+                color: var(--muted);
+                transition: color 0.12s;
+            }
+            .footer-links a:hover {
+                color: var(--text);
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html" class="nav-brand">
+                <div class="nav-logo">⚡</div>
+                SpeedCtrl
+            </a>
+        </nav>
+
+        <div class="page">
+            <div class="eyebrow">Legal</div>
+            <h1>Privacy Policy</h1>
+            <div class="updated">Last updated: June 2026</div>
+
+            <div class="summary-card">
+                <div class="summary-icon">🔒</div>
+                <p>
+                    <strong>Short version:</strong> SpeedCtrl collects nothing.
+                    No data ever leaves your browser. Everything stays on your
+                    device.
+                </p>
+            </div>
+
+            <h2>What we collect</h2>
+            <p>
+                Nothing. SpeedCtrl does not collect, store, transmit, or share
+                any personal data, usage data, or any other information about
+                you or your browsing.
+            </p>
+
+            <h2>How your settings are stored</h2>
+            <p>
+                Your preferences — speed settings, keyboard shortcuts, per-site
+                defaults, and theme choices — are stored locally using Chrome's
+                built-in <code>chrome.storage.sync</code> API. This syncs your
+                settings across your own signed-in Chrome browsers. It is:
+            </p>
+            <ul>
+                <li>
+                    Stored on your device and Google's sync infrastructure (your
+                    own account)
+                </li>
+                <li>Never accessible to us</li>
+                <li>
+                    Never transmitted to any SpeedCtrl server (there are none)
+                </li>
+            </ul>
+
+            <h2>Third-party services</h2>
+            <p>
+                SpeedCtrl uses no third-party analytics, tracking scripts,
+                advertising networks, or external APIs. The extension makes no
+                network requests of any kind.
+            </p>
+
+            <h2>Permissions</h2>
+            <p>SpeedCtrl requests the following Chrome permissions:</p>
+            <ul>
+                <li><code>storage</code> — to save your settings locally</li>
+                <li>
+                    <code>tabs</code> — to communicate between the popup and the
+                    active tab
+                </li>
+                <li>
+                    <code>scripting</code> — to apply speed changes to the
+                    current page
+                </li>
+                <li>
+                    <code>&lt;all_urls&gt;</code> — so the speed overlay works
+                    on any site with a video
+                </li>
+            </ul>
+            <p>
+                None of these permissions are used to collect or transmit data.
+            </p>
+
+            <h2>Open source</h2>
+            <p>
+                SpeedCtrl is fully open source. You can inspect every line of
+                code at
+                <a href="https://github.com/adiiace/speedctrl"
+                    >github.com/adiiace/speedctrl</a
+                >
+                to verify these claims.
+            </p>
+
+            <div class="divider"></div>
+
+            <h2>Contact</h2>
+            <p>
+                Questions? Open an issue on
+                <a href="https://github.com/adiiace/speedctrl">GitHub</a>.
+            </p>
+        </div>
+
+        <footer>
+            <p>© 2026 SpeedCtrl</p>
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="https://github.com/adiiace/speedctrl">GitHub</a>
+                <a href="#">Chrome Web Store</a>
+            </div>
+        </footer>
+    </body>
+</html>
